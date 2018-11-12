@@ -86,7 +86,7 @@ Start of the program in verbose mode and with management of the log file.
 
 <a name="usage"></a>
 ## Usage
-See the help folder
+See the [help-files](https://github.com/senter7/Reliable-UDP/tree/master/Reliable%20UDP/help_files) folder
 
 <a name="source"></a>
 ## Folders organization
