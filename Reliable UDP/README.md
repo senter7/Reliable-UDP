@@ -8,8 +8,9 @@ This software was written for the Internet and Web Engineering course, degree in
 4. [Launch](#launch)
     - [Server launch](#launch_server)
     - [Client launch](#launch_client)
-5. [Folders organization](#source)
-5. [License](#license)
+5. [Usage](#usage)
+6. [Folders organization](#source)
+7. [License](#license)
 
 <a name="configuration"></a>
 ## Configuration
@@ -82,6 +83,10 @@ a new log file every day. Every time the client starts with the argument **-l**,
 Launch of the program in verbose mode. It will show a series of detailed messages regarding operations in progress on the server. Useful for debugging.
 - **./RUDP_client 127.0.0.1 -l -v**
 Start of the program in verbose mode and with management of the log file.
+
+<a name="usage"></a>
+## Usage
+See the help folder
 
 <a name="source"></a>
 ## Folders organization
