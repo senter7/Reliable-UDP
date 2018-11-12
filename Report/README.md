@@ -3,7 +3,7 @@ This file contains a detailed documentation about this software (architecture, b
   
 **simone(dot)minasola(at)gmail(dot)com**  
   
-Whit the subject **[IIW] Report**.  
+with the subject **[IIW] Report**.    
 If you want, also indicate the reason why you would like to read my report :)  
   
 I will answer immediately with the PDF password.
