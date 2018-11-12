@@ -1,0 +1,66 @@
+|==================================================|
+|   Help document for the use of the program       |
+|          Reliable UDP (client side)              |
+|================================================= |
+|                                                  |
+|1) Arguments                                      |
+|The program must be started by entering one or    |
+|more arguments.The first argument must be the IP  |
+|address of the server. The port must not be       |
+|specified.                                        |
+|                                                  |
+|The optional arguments are:                       |
+| a) '-v' : activates the verbose mode             |
+| b) '-l' : activates the writing of the log file  |
+|    that will be saved in the 'logs' dir of       |
+|    the program                                   |
+|The order of these two arguments is irrelevant.   |
+|                                                  |
+|Example: ./RUDP_client 127.0.0.1 -l               |
+|         ./RUDP_client 127.0.0.1 -v -l            |
+|                                                  |
+|                                                  |
+|2) PUT                                            |
+|It allows you to send a file to the server. The   |
+|argument to be passed to PUT is the name of the   |
+|file you want to send, in the folder 'data' of the| 
+|client.                                           |
+|                                                  |
+|Example:  'PUT my_file.txt'                       |
+|                                                  |
+|                                                  |
+|3) GET                                            |
+It allows you to receive a file from the server.   |
+|The argument to be passed to GET is the name of   |
+|the file you want to receive, in the folder 'data'| 
+|of the server.                                    |
+|                                                  |
+|Example:  'GET your_file.txt'                     |
+|                                                  |
+|                                                  |
+|4) LIST                                           |
+|It allows you to receive a list of files in the   |
+|folder 'data' of the server. The list is printed  |
+|to the screen and saved in the folder 'data' of   |
+|the client with the name 'server_list.txt'.       |
+|                                                  |
+|Example:  'LIST'                                  |
+|                                                  |
+|                                                  |
+|5) HELP                                           |
+|It allows you to view this message by screen.     |
+|                                                  |
+|Example:  'HELP'                                  |
+|                                                  |
+|                                                  |
+|6) LANG                                           |
+|It allows you to set a language supported by the  |
+|program: Italian or English. The argument to be   |
+|passed to LANG is the ID of the language choice   |
+|(upper or lower case).                            |
+|                                                  |
+|Example:  'LANG ita' or 'LANG eng'                |
+|          'LANG ITA' or 'LANG ENG'                |
+|                                                  |
+|To exit the program, type CTRL+D (EOF stdin)      |
+|==================================================|

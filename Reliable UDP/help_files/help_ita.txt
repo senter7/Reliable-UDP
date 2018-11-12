@@ -1,0 +1,69 @@
+|==================================================|
+|   Documento di aiuto all'uso del programma       |
+|         Reliable UDP (lato client)               |
+|================================================= |
+|                                                  |
+|1) Argomenti                                      |
+|Il programma deve essere avviato inserendo 1 o    |
+|più argomenti, alcuni dei quali facoltativi.      |
+|                                                  |
+|Il primo argomento DEVE necessariamente essere    |
+|l'indirizzo IP del server. La porta non deve      |
+|essere specificata.                               |
+|                                                  |
+|Gli argomenti facoltativi sono:                   |
+| a) '-v' : attiva la modalità verbose             |
+| b) '-l' : attiva la scrittura del file di        |
+|    log che verrà salvato nella cartella 'logs'   |
+|    del programma                                 |
+|L'ordine di questi due argomenti è irrilevante.   |
+|                                                  |
+|Esempio: ./RUDP_client 127.0.0.1 -l               |
+|         ./RUDP_client 127.0.0.1 -v -l            |
+|                                                  |
+|                                                  |
+|2) PUT                                            |
+|Permette di inviare un file al server. L'argomento|
+|da passare a PUT è il nome del file che si vuole  |
+|inviare, presente nella cartella 'data' del       |
+|client.                                           |
+|                                                  |
+|Esempio:  'PUT my_file.txt'                       |
+|                                                  |
+|                                                  |
+|3) GET                                            |
+|Permette di ricevere un file dal server.          |
+|L'argomento da passare a GET è il nome del file   |
+|che si vuole ricevere, presente nella cartella    |
+|'data' del server.                                |
+|                                                  |
+|Esempio:  'GET your_file.txt'                     |
+|                                                  |
+|                                                  |
+|4) LIST                                           |
+|Permette di ricevere una lista di file presenti   |
+|nella cartella 'data' del server. La lista viene  | 
+|stampata a schermo e salvata nella cartella 'data'|
+|del client con il nome 'server_list.txt'.         |
+|                                                  |
+|Esempio:  'LIST'                                  |
+|                                                  |
+|                                                  |
+|5) HELP                                           |
+|Permette di visualizzare questo messaggio di      |
+|aiuto sullo schermo.                              |
+|                                                  |
+|Esempio:  'HELP'                                  |
+|                                                  |
+|                                                  |
+|6) LANG                                           |
+|Permette di impostare una delle lingue supportate |
+|dal programma: italiano o inglese. L'argomento    |
+|da passare a LANG è l'id della lingua scelta      |
+|(maiuscolo o minuscolo),                          |
+|                                                  |
+|Esempio:  'LANG ita' oppure 'LANG eng'            |
+|          'LANG ITA' oppure 'LANG ENG'            |
+|                                                  |
+|Per uscire dal programma: CTRL+D (EOF stdin)      |
+|==================================================|
