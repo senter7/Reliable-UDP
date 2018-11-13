@@ -1,5 +1,5 @@
 # Reliable UDP
-This software was written for the Internet and Web Engineering course, degree in Computer Engineering, Tor Vergata. For specific details, see [README](https://github.com/senter7/Reliable-UDP/blob/master/README.md) file.
+This software was written for the Internet and Web Engineering course, degree in Computer Engineering, Tor Vergata. For specific details, see this [README](https://github.com/senter7/Reliable-UDP/blob/master/README.md) file.
 
 # Table of Contents
 1. [Configuration](#configuration)
@@ -15,7 +15,7 @@ This software was written for the Internet and Web Engineering course, degree in
 <a name="configuration"></a>
 ## Configuration
 Before installing the program, it is recommended to configure the settings. If you omit this step, the software will be compiled and executed with the default settings.
-To change the settings, open the `${settings.h} file in the ***src*** folder. This header file contains several user-editable definitions. The most important are:
+To change the settings, open the `${settings.h}` file in the ***src*** folder. This header file contains several user-editable definitions. The most important are:
 - **WINDOW DIMENSION**: the size of the shipping window
 - **LOSS PROBABILITY**: the percentage that identifies the probability of loss
 - **MAX BLOCK SIZE**: the size in bytes of the data field of the packets
