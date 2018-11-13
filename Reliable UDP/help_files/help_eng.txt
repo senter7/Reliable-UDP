@@ -30,7 +30,7 @@
 |                                                  |
 |                                                  |
 |3) GET                                            |
-It allows you to receive a file from the server.   |
+|It allows you to receive a file from the server.  |
 |The argument to be passed to GET is the name of   |
 |the file you want to receive, in the folder 'data'| 
 |of the server.                                    |
