@@ -57,13 +57,13 @@ Reliable UDP
 ./RUDP_server [-l logging] [-v verbose mode]
 ```
 In the server folder, launch the program with the following different options (the order of the arguments is not important):
-- **./RUDP_server**
+- **./RUDP_server**  
 Starting the basic program without any additional functionality.
-- **./RUDP_server -l**
+- **./RUDP_server -l**  
 Launch of the program with creation and management of the log file. For the server, the log file is unique and will only be created once. Every time the server with the argument **-l** starts up, the log file will be updated with the current operations. To consult the log file, open the **LOG.txt** file in the log folder.
-- **./RUDP_server -v**
+- **./RUDP_server -v**  
 Launch of the program in verbose mode. It will show a series of detailed messages regarding operations in progress on the server. Useful for debugging.
-- **./RUDP_server -l -v**
+- **./RUDP_server -l -v**  
 Start of the program in verbose mode and with management of the log file.
 
 <a name="launch_client"></a>
@@ -74,14 +74,14 @@ Start of the program in verbose mode and with management of the log file.
 ```
 In the client folder, launch the program with the following different options (outside of the
 first, the order of the arguments is not important):
-- **./RUDP_client 127.0.0.1**
+- **./RUDP_client 127.0.0.1**  
 Starting the basic program without any additional functionality.
-- **./RUDP_client 127.0.0.1 -l**
+- **./RUDP_client 127.0.0.1 -l**  
 Launch of the program with creation and management of the log file. For the client, it is created
 a new log file every day. Every time the client starts with the argument **-l**, the log file will be created/updated with the current operations. To consult the log, open the **LOG [today's date].txt** in the log folder.
-- **./RUDP_client 127.0.0.1 -v**
+- **./RUDP_client 127.0.0.1 -v**  
 Launch of the program in verbose mode. It will show a series of detailed messages regarding operations in progress on the server. Useful for debugging.
-- **./RUDP_client 127.0.0.1 -l -v**
+- **./RUDP_client 127.0.0.1 -l -v**  
 Start of the program in verbose mode and with management of the log file.
 
 <a name="usage"></a>
